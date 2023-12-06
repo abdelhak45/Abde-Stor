@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Abde-Store</title>
+</head>
+<body>
+    <div id="nav" class="nave">
+            <h1 class="logo">
+                Abde-Store          
+            <i name="show" id="mune" class="fa-solid fa-bars"></i>
+        </h1>
+        <div class="links">
+            <span>
+                <a id="a" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ONE</a></li>
+                <li><a class="dropdown-item" href="#">TWO</a></li>
+                <li><a class="dropdown-item" href="#">Three</a></li>
+            </ul>
+            </span>
+            <a id="a" href="">Wishlist</a>
+            <a id="a" href="">Blog</a>
+            <a id="a" href="" onclick="log.showModal()">Login</a>
+            <a id="a" href="" onclick="sin.showModal()">Sign Up</a>
+        </div>
+    </div>
+    <div class="nav2" >
+    <div class="down" style="display: flex;gap: 20px;font-weight: 900;">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Arabic</a></li>
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Fransh</a></li>
+        </ul>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                COIN
+            </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">$ USA</a></li>
+            <li><a class="dropdown-item" href="#">DH MAROCCO</a></li>
+            <li><a class="dropdown-item" href="#">£ FRANSH</a></li>
+            <li><a class="dropdown-item" href="#">BITCOIN</a></li>
+        </ul>
+    </div>
+    <input id="searchInput" type="search" placeholder="search. . .">
+    <div class="searshIcons"style="display: flex;gap: 15px;
+        float: right;">
+            <i id="searchIcon" class="fa-solid fa-magnifying-glass"style="color: black;"></i>
+            <i class="fa-solid fa-cart-shopping" style="color: black;"></i>
+            <i class="fa-solid fa-user" style="color: black;"></i>
+    </div>
+    </div>
+    <div class="center" style="position: relative;top: 50px;">
+        <div class="prent1"></div>
+        <div class="sold">
+            <div><img src="./img/Red Yellow Minimalist Shopping Coupon.png" alt=""></div>
+            <div><img src="./img/Red Yellow Minimalist Shopping Coupon (2).png" alt=""></div>
+            <div><img src="./img/Red Yellow Minimalist Shopping Coupon (1).png" alt=""></div>
+        </div>
+        <div class="sold1">
+            <div><h4 id="watch" style="text-align: center; font-weight: 600; margin: 10px auto;">> Watch</h4></div>
+            <div><h4 id="man" style="text-align: center; font-weight: 600; margin: 10px auto;">> Man</h4></div>
+            <div><h4 id="women" style="text-align: center; font-weight: 600; margin: 10px auto;">> Women</h4></div>
+        </div>
+        <div class="cards">
+            <div id="watchDiv">
+                <h1 style="text-align: center; font-weight: 800; margin: 10px auto;"><span style="font-weight: 200;">#</span> All Category</h1>
+                <div class="carde">
+                    <div>
+                        <img id="img" src="./img/33pj8fb1.bmp" alt="50$" title="Boy Winter Clothes">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/0xug80vm.bmp" alt="120$" title="Boy Winter Clothes">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/us0fzly8.bmp" alt="95$" title="Boy Winter Clothes">
+                        <!-- <button onclick="watchModel.showModal()" class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                </div>
+                <br>
+                <div class="carde">
+                    <div>
+                        <img id="img" src="./img/nqwsdcmz.bmp" alt="199$" title="Class Modern Watch">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/aqaies1c.bmp" alt="201$" title="Gold Modern Watch">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/l2okfl0y.bmp" alt="169$" title="Work Modern Watch">
+                        <!-- <button onclick="watchModel.showModal()" class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="carde">
+                    <div>
+                        <img id="img" src="./img/kuiyq5wl.bmp" alt="45$" title="Boy Winter Clothes">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/ludtb0qi.bmp" alt="62$" title="Boy Winter Clothes">
+                        <!-- <button class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                    <div>
+                        <img id="img" src="./img/hkd9j372.bmp" alt="199$" title="Boy Winter Clothes">
+                        <!-- <button onclick="watchModel.showModal()" class="btn btn-outline-dark" >View Now</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foteur ">
+            <div>
+                <h4>Abde-Store</h4>
+                <pre>
+Lorem ipsum dolor 
+quo dolores rerum, molestias 
+odit doloremque 
+laudantium quaerat 
+ipsam nihil 
+culpa cupiditate architecto.
+                </pre>
+            </div>
+            <div class="foteurLinks">
+                <h4>Links</h4>
+                <a href="">Home</a>
+                <a href="">Category</a>
+                <a href="">Wishlist</a>
+                <a href="">Blog</a>
+            </div>
+            <div class="foteurLinks">
+                <h4>Category</h4>
+                <a href="">Watch</a>
+                <a href="">Man</a>
+                <a href="">Women</a>
+            </div>
+            <div class="foteurLinks">
+                <h4>Language</h4>
+                <a href="">Arabic</a>
+                <a href="">English</a>
+                <a href="">Fransh</a>
+            </div>
+            <div class="foteurLinks">
+                <h4>Coin</h4>
+                <a href="">$ Usa</a>
+                <a href="">DH Marocco</a>
+                <a href="">£ Fransh</a>
+                <a href="">Bitcoin</a>
+            </div>
+            <div class="foteurLinks">
+                <h4>Help</h4>
+                <a href="">ONE</a>
+                <a href="">Two</a>
+                <a href="">three</a>
+                <a href="">four</a>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+    </div>
+
+
+<!-- ===================================================== watchModel -->
+
+
+<dialog id="watchModel" style="border-radius: 10px; border: none;max-width: 900px;">
+    <i onclick="watchModel.close()" style="float: right;font-size: 20px;" class="fa-solid fa-circle-xmark"></i>
+    <div id="juty" style="margin-top: 3%;">
+        <div  id="rower" style="padding: 10px" >
+          
+          <div class="col-md-6 mt-3" style="display: contents;" >
+            <img id="modelImg" style="width: 100%;height: 300px;" src="" alt="">
+           
+          </div>
+          <div class="col-md-6 container mt-2">
+            <div class="container">
+              <h3 id="titleWatch" class="text-success"></h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eaque ea in tenetur illum, earum quia aliquid vel iure nemo, libero deleniti repudiandae, dolorem quos. Aut odio aspernatur reiciendis vel!
+             </p>
+             <h5 id="prise" class="text-success"></h5>
+             <select class="text-warning btn btn-outline-success"  style="margin-left: 4px;width: 40%;">
+                <option value="1">Color</option>
+                <option value="2">green</option>
+                <option value="3">yelow</option>
+                <option value="4">red</option>
+              </select>
+             <select  class="text-warning btn btn-outline-success"  style="margin-left: 4px;width: 40%;">
+              <option value="1">Size</option>
+              <option value="2">X-L</option>
+              <option value="3">XX-L</option>
+              <option value="4">XXX-L</option>
+            </select>
+
+
+            <div class="mt-3">
+              <button class="btn btn-outline-primary mt-2" style="width: 100%;">
+               Add To Cart
+              </button>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</dialog>
+
+<!-- ======================================================== log 
+
+<dialog id="log" style="border-radius: 10px; border: none;">
+  
+    <div>
+        <i onclick="log.close()" style="float: right;font-size: 20px;" class="fa-solid fa-circle-xmark"></i>
+    </div>
+    <br>
+    <center><h3 style="font-weight: bold; border-bottom: 1px solid#333;padding-bottom: 5px;color: #333;">Login</h3></center>
+    <br>
+    
+    <form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Are you sur about its</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+</dialog>
+-->
+<!-- ======================================================== sin 
+<dialog id="sin" style="border-radius: 10px; border: none;">
+    <div>
+        <i onclick="sin.close()" style="margin: -48px;float: right;font-size: 20px;" class="fa-solid fa-circle-xmark"></i>
+    </div>
+    <br>
+    <center>
+      <h3 style="font-weight: bold; border-bottom: 1px solid#333;padding-bottom: 5px;color: #333;">
+        Sin Up
+      </h3>
+    </center>
+    <br>
+    
+    <form>
+      <div class="mb-3">
+        <label for="ferstName" class="form-label">Ferst Name</label>
+        <input type="text" class="form-control" id="ferstName" aria-describedby="emailHelp">
+  
+    </div>
+    <div class="mb-3">
+      <label for="scond Name" class="form-label">Second Name</label>
+      <input type="text" class="form-control" id="scond Name" aria-describedby="emailHelp">
+  
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Are you sur about its</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+  </dialog>
+-->
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
